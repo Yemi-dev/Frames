@@ -1,4 +1,4 @@
-# React.js + TypeScript + Styled Components
+# React.js + TypeScript + Styled Components + Storybook
 
 ## Features
 
