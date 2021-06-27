@@ -1,4 +1,4 @@
-# React.js + TypeScript
+# React.js + TypeScript + Styled Components
 
 ## Features
 
