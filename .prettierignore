@@ -1,0 +1,9 @@
+# .next
+# .storybook
+# node_modules
+# package.json
+# tsconfig.json
+# app
+# data
+# scripts
+# public/**/*
