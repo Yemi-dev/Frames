@@ -1,4 +1,5 @@
 import { render, RenderOptions } from '@testing-library/react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import { theme as defaultTheme } from '../styles/theme';

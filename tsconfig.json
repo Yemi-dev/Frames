@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "es2015"
-    ],
+    "lib": ["dom", "dom.iterable", "es2015"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -17,24 +13,12 @@
     "noImplicitAny": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "baseUrl": "src",
-    "types": [
-      "node",
-      "jest",
-      "jest-styled-components",
-      "@types/testing-library__jest-dom"
-    ],
+    "types": ["node", "jest", "jest-styled-components", "@types/testing-library__jest-dom"],
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
-  "exclude": [
-    ".*",
-    "scripts",
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [".*", "scripts", "node_modules"]
 }
