@@ -1,12 +1,12 @@
 import Sample from 'pages/Sample';
-import React from 'react';
+import ErrorBoundary from 'ui/components/ErrorBoundary';
 
-function App() {
+const App = (): JSX.Element => {
   return (
-    <div>
+    <ErrorBoundary>
       <Sample title="SampleComponent" description="This is the sample component description" />
-    </div>
+    </ErrorBoundary>
   );
-}
+};
 
 export default App;
