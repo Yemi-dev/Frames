@@ -37,7 +37,7 @@ export const MobileNavLinks = styled.div`
   flex-direction: column;
   gap: 76px;
   padding: 1rem 2rem;
-  margin-top: -150px;
+  margin-top: -110px;
 `;
 
 export const LinksItem = styled.a<{ active: boolean }>`
