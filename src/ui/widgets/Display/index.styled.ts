@@ -4,12 +4,7 @@ export const DisplaySectionContainer = styled.div`
   .first {
     background: #f6f6f6;
   }
-  .third {
-    background: #f6f6f6;
-    div:last-child {
-      background-image: url('/uploads/Rectangle2876.png');
-    }
-  }
+
   .second {
     p,
     h2 {
@@ -27,6 +22,16 @@ export const DisplaySectionContainer = styled.div`
     button {
       margin-right: auto;
       direction: ltr;
+    }
+  }
+
+  .third {
+    background: #f6f6f6;
+    div:last-child {
+      background-image: url('/uploads/Rectangle2876.png');
+      &:hover {
+        background-image: url('/uploads/Rectangle2876Zoomed.png');
+      }
     }
   }
 
