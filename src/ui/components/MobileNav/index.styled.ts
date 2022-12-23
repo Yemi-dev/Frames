@@ -37,7 +37,7 @@ export const MobileNavLinks = styled.div`
   flex-direction: column;
   gap: 76px;
   padding: 1rem 2rem;
-  margin-top: -110px;
+  margin-top: -130px;
 `;
 
 export const LinksItem = styled.a<{ active: boolean }>`
@@ -45,6 +45,9 @@ export const LinksItem = styled.a<{ active: boolean }>`
   font-size: 36px;
   font-weight: ${({ active }) => (active ? '400' : '400')};
   color: ${({ active }) => (active ? 'white' : '#FDD961')};
+  @media (max-width: 560px) {
+    font-size: 24px;
+  }
 `;
 
 export const MobileNavBottom = styled.div`
