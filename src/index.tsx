@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { theme } from 'styles/theme';
 import ErrorBoundary from 'ui/components/ErrorBoundary';
@@ -12,7 +13,9 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <ErrorBoundary>
-        <App />
+        <Router>
+          <App />
+        </Router>
       </ErrorBoundary>
     </ThemeProvider>
   </React.StrictMode>,

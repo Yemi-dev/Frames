@@ -1,0 +1,58 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Typography } from 'ui/atoms/Typography';
+import { Gmail } from 'ui/svgs/Gmail';
+import { Instagram } from 'ui/svgs/Instagram';
+import { Pinterest } from 'ui/svgs/Pinterest';
+import { Twitter } from 'ui/svgs/Twitter';
+
+import {
+  ContactContainer,
+  CopyrightContainer,
+  FooterContainer,
+  QuickLinksContainer,
+  SocialsContainer,
+  Telephone
+} from './index.styled';
+
+const Footer = (): JSX.Element => {
+  return (
+    <FooterContainer>
+      <CopyrightContainer>
+        <Typography variant="h5">
+          {' '}
+          <span>&copy; 2023</span> Frames by Dasola
+        </Typography>
+
+        <p>
+          Website Designed by <b>DASOLA AWOYE</b>
+        </p>
+      </CopyrightContainer>
+      <QuickLinksContainer>
+        <Typography variant="h5"> Quicklinks</Typography>
+        <Link to={'/catalogue'}> Catalogue</Link>
+        <Link to={'/about'}> About</Link>
+      </QuickLinksContainer>
+      <ContactContainer>
+        <Typography variant="h5"> Get in touch with us</Typography>
+        <Telephone href="tel:08148705378"> (+234) 0814 870 5378</Telephone>
+        <SocialsContainer>
+          <Link to={'/'}>
+            <Gmail />
+          </Link>
+          <Link to={'/'}>
+            <Twitter />
+          </Link>
+          <Link to={'/'}>
+            <Instagram />
+          </Link>
+          <Link to={'/'}>
+            <Pinterest />
+          </Link>
+        </SocialsContainer>
+      </ContactContainer>
+    </FooterContainer>
+  );
+};
+
+export default Footer;

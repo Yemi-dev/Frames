@@ -2,11 +2,13 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+
   *,
   *:before,
   *:after {
     box-sizing: border-box;
   }
+
 
   html, 
   body {
@@ -23,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     background: ${({ theme }) => theme.colors.nero};
     color: ${({ theme }) => theme.colors.white};
-    font-family: ${({ theme }) => theme.fonts.primary};
+    font-family: 'Graphik', sans-serif;                 
   }
 
 
