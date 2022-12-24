@@ -15,7 +15,7 @@ export const TestimonialHeader = styled.div`
     font-family: 'Graphik', sans-serif;
     font-weight: 600;
     font-size: 32px;
-    color: #0a1947;
+    color: black;
   }
 `;
 

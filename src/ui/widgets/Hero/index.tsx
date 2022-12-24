@@ -30,11 +30,11 @@ const HeroSection = (): JSX.Element => {
         <HeroHeaderContainer>
           <HeroHeader>
             <Typography variant="h3">
-              Framed Arts are the{' '}
+              Framed Arts are <br /> the
               <span>
                 focal <FramedPicture /> point
               </span>{' '}
-              of <span>your home</span>
+              of <br /> <span>your home</span>
             </Typography>
           </HeroHeader>
           <Typography variant="p">
@@ -72,14 +72,26 @@ const HeroSection = (): JSX.Element => {
           <Discount />
         </HeroBottomTopSection>
         <HeroBottomFramesSection>
-          <ArtPiece src="/uploads/Self Help.png" name="Anonymous" amount="15,888" />
-          <ArtPiece src="/uploads/DIY.png" name="DIY" amount="16,888" />
-          <ArtPiece src="/uploads/MAstery.png" name="Focus" amount="16,888" />
-          <ArtPiece
-            src="/uploads/Nothing to see here.png"
-            name="Poster About Nothing"
-            amount="15,888"
-          />
+          <a href="/">
+            {' '}
+            <ArtPiece src="/uploads/Self Help.png" name="Anonymous" amount="15,888" />
+          </a>
+          <a href="/">
+            {' '}
+            <ArtPiece src="/uploads/DIY.png" name="DIY" amount="16,888" />
+          </a>
+          <a href="/">
+            {' '}
+            <ArtPiece src="/uploads/MAstery.png" name="Focus" amount="16,888" />
+          </a>
+          <a href="/">
+            {' '}
+            <ArtPiece
+              src="/uploads/Nothing to see here.png"
+              name="Poster About Nothing"
+              amount="15,888"
+            />
+          </a>
         </HeroBottomFramesSection>
         <CustomButton>
           VIEW CATALOGUE

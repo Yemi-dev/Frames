@@ -26,6 +26,7 @@ export const HeroHeader = styled.div`
 
   span {
     font-weight: 600;
+    margin-left: 25px;
   }
   @media (max-width: 960px) {
     h3 {
@@ -37,9 +38,18 @@ export const HeroHeader = styled.div`
       font-size: 4rem;
     }
   }
+  @media (max-width: 650px) {
+    h3 {
+      font-size: 3.5rem;
+      line-height: 66.4px;
+      svg {
+        display: none;
+      }
+    }
+  }
   @media (max-width: 560px) {
     h3 {
-      font-size: 55px;
+      font-size: 50px;
       line-height: 60px;
 
       svg {
@@ -51,15 +61,30 @@ export const HeroHeader = styled.div`
     h3 {
       font-size: 40px;
       line-height: 50px;
+      span {
+        margin-left: 14px;
+      }
+    }
+  }
+  @media (max-width: 370px) {
+    h3 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+  }
+  @media (max-width: 370px) {
+    h3 {
+      font-size: 30px;
+      line-height: 40px;
     }
   }
 `;
 
 export const HeroHeaderContainer = styled.div`
-  width: 55%;
+  width: 100%;
   text-align: center;
   margin: 5rem auto;
-  padding: 2rem 0;
+  padding: 2rem;
   p {
     font-family: 'Graphik', sans-serif;
     color: #000000;
@@ -69,15 +94,12 @@ export const HeroHeaderContainer = styled.div`
       font-weight: 700;
     }
   }
-  @media (max-width: 1200px) {
-    width: 60%;
-  }
-  @media (max-width: 1100px) {
-    width: 70%;
-  }
   @media (max-width: 768px) {
-    width: 85%;
+    width: 100%;
     margin: 4rem auto 2rem;
+  }
+  @media (max-width: 400px) {
+    padding: 1rem;
   }
   @media (max-width: 360px) {
     svg {
@@ -147,7 +169,7 @@ export const HeroBottomTopSection = styled.div`
 export const HeroBottomHeader = styled.div`
   text-align: center;
   h3 {
-    color: #232323;
+    color: black;
     text-transform: uppercase;
     font-family: 'Graphik', sans-serif;
     font-size: 20px;

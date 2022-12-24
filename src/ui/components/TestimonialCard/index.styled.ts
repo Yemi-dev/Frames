@@ -10,7 +10,7 @@ export const TestimonialCardContainer = styled.div`
   .mask {
     position: absolute;
     top: -8px;
-    left: 145px;
+    left: 200px;
   }
   p {
     font-family: 'Graphik', sans-serif;
@@ -20,9 +20,15 @@ export const TestimonialCardContainer = styled.div`
   }
   @media (max-width: 1200px) {
     width: 360px;
+    .mask {
+      left: 150px;
+    }
   }
   @media (max-width: 860px) {
     width: 340px;
+    .mask {
+      left: 165px;
+    }
   }
   @media (max-width: 768px) {
     width: 400px;

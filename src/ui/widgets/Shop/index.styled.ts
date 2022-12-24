@@ -45,8 +45,8 @@ export const ShopTextContainer = styled.div`
     gap: 15px;
   }
   svg {
-    width: 33px;
-    height: 33px;
+    width: 33px !important;
+    height: 33px !important;
     font-weight: 500;
   }
   @media (max-width: 1100px) {

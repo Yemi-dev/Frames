@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutInfoContainer = styled.div`
   width: 100%;
-  padding: 8rem 0 4rem;
+  padding: 8rem 0 0;
   background: #fbf3e4;
 `;
 export const PrimaryContainer = styled.div`

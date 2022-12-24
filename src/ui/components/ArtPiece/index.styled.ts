@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ArtContainer = styled.div`
   width: fit-content;
+  cursor: pointer;
   img {
     width: 280px;
     height: 310px;
@@ -24,6 +25,11 @@ export const ArtContainer = styled.div`
     .name,
     .amount {
       text-align: center;
+    }
+  }
+  @media (max-width: 560px) {
+    img {
+      height: 350px;
     }
   }
 `;

@@ -53,7 +53,7 @@ export const InputGroup = styled.form`
     padding: 0;
     svg {
       width: 80px;
-      margin-top: 3px;
+      margin: 4.55px 2px 0 0;
     }
   }
   @media (max-width: 900px) {

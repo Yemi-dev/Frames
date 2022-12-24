@@ -48,7 +48,7 @@ export const DisplayTextArea = styled.div`
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 4rem 0 1rem;
     button {
       margin: 0 auto;
     }

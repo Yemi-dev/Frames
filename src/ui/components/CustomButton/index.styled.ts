@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CustomButtonContainer = styled.button`
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   background: #232323;
   border-radius: 171.677px;
   padding: 0.8rem 1rem;
