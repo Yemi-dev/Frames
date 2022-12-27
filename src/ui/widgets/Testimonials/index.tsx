@@ -34,8 +34,7 @@ on a piece of art, but it came out great, my family members love the look it bri
           title="Building materials merchant"
         />
         <TestimonialCard
-          text=" “The art from Dasola is really nice, It makes my clients interior look luxury and fancy,
-        they tell me their guests always say how much they like it.”"
+          text=" “I bought some beautiful art piece from Dasola for some rooms in my house, it was the missing piece in all those spaces, the composition is top notch.”"
           src="/uploads/Male (3).png"
           name="Engr. S.O Arigbabu"
           title="Civil Engineer"
