@@ -32,7 +32,7 @@ const MobileNav = ({ setOpen, open }): JSX.Element => {
       <MobileNavLinks>
         <CustomLink href="/">Home</CustomLink>
         <CustomLink href="/about">About</CustomLink>
-        <CustomLink href="/catalogue">Catalogue</CustomLink>
+        <CustomLink href="https://paystack.shop/darcy-frames">Catalogue</CustomLink>
       </MobileNavLinks>
       <MobileNavBottom>
         <Copyright>
