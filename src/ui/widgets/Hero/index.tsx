@@ -72,19 +72,19 @@ const HeroSection = (): JSX.Element => {
           <Discount />
         </HeroBottomTopSection>
         <HeroBottomFramesSection>
-          <a href="/">
+          <a href="https://paystack.shop/darcy-frames?product=anonymous-edpvfm">
             {' '}
             <ArtPiece src="/uploads/Self Help.png" name="Anonymous" amount="15,888" />
           </a>
-          <a href="/">
+          <a href="https://paystack.shop/darcy-frames?product=diy-hoikrj">
             {' '}
             <ArtPiece src="/uploads/DIY.png" name="DIY" amount="16,888" />
           </a>
-          <a href="/">
+          <a href="https://paystack.shop/darcy-frames?product=diy-hoikrj">
             {' '}
             <ArtPiece src="/uploads/MAstery.png" name="Focus" amount="16,888" />
           </a>
-          <a href="/">
+          <a href="https://paystack.com/buy/robert-greene-quotes-giafpg">
             {' '}
             <ArtPiece
               src="/uploads/Nothing to see here.png"
@@ -93,7 +93,7 @@ const HeroSection = (): JSX.Element => {
             />
           </a>
         </HeroBottomFramesSection>
-        <CustomButton>
+        <CustomButton onClick={() => (window.location.href = 'https://paystack.shop/darcy-frames')}>
           VIEW CATALOGUE
           <Arrow />
         </CustomButton>

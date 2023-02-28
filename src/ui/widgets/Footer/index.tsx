@@ -30,25 +30,25 @@ const Footer = (): JSX.Element => {
       </CopyrightContainer>
       <QuickLinksContainer>
         <Typography variant="h5"> Quicklinks</Typography>
-        <Link to={'/catalogue'}> Catalogue</Link>
+        <Link to={'https://paystack.shop/darcy-frames'}> Catalogue</Link>
         <Link to={'/about'}> About</Link>
       </QuickLinksContainer>
       <ContactContainer>
         <Typography variant="h5"> Get in touch with us</Typography>
         <Telephone href="tel:08148705378"> (+234) 0814 870 5378</Telephone>
         <SocialsContainer>
-          <Link to={'/'}>
+          <a href={'mailto:awoyedasola1@gmail.com'} target="_blank" rel="noreferrer">
             <Gmail />
-          </Link>
-          <Link to={'/'}>
+          </a>
+          <a href={'https://twitter.com/dasola__'} target="_blank" rel="noreferrer">
             <Twitter />
-          </Link>
-          <Link to={'/'}>
+          </a>
+          <a href={'https://www.instagram.com/darcy_frames/'} target="_blank" rel="noreferrer">
             <Instagram />
-          </Link>
-          <Link to={'/'}>
+          </a>
+          <a href={'https://www.pinterest.com/awoyed/'} target="_blank" rel="noreferrer">
             <Pinterest />
-          </Link>
+          </a>
         </SocialsContainer>
       </ContactContainer>
     </FooterContainer>

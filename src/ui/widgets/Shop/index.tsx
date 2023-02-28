@@ -13,7 +13,7 @@ const Shop = (): JSX.Element => {
         <Typography variant="h3">
           Do you want to give your space a classy and aesthetic look ?
         </Typography>
-        <CustomButton>
+        <CustomButton onClick={() => (window.location.href = 'https://paystack.shop/darcy-frames')}>
           SHOP NOW
           <Arrow />
         </CustomButton>

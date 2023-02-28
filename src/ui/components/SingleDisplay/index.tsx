@@ -19,7 +19,7 @@ const SingleDisplay = ({
       <DisplayTextArea>
         <Typography variant="h2"> {title}</Typography>
         <Typography variant="p">{text}</Typography>
-        <CustomButton>
+        <CustomButton onClick={() => (window.location.href = 'https://paystack.shop/darcy-frames')}>
           SHOP NOW
           <Arrow />
         </CustomButton>

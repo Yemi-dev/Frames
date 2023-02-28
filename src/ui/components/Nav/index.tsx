@@ -14,9 +14,9 @@ const Nav = ({ setOpen }: { setOpen: any }): JSX.Element => {
         <NavLinks>
           <CustomLink href="/">Home</CustomLink>
           <CustomLink href="/about">About</CustomLink>
-          <CustomLink href="/catalogue">Catalogue</CustomLink>
+          <CustomLink href="https://paystack.shop/darcy-frames">Catalogue</CustomLink>
         </NavLinks>
-        <CartLink href="/catalogue">
+        <CartLink href="https://paystack.shop/darcy-frames">
           <Cart />
         </CartLink>
         <MenuWrapper onClick={() => setOpen(true)}>
